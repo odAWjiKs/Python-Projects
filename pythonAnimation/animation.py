@@ -16,6 +16,5 @@ for j in range(len(paths)):
     print (file_contents)
     time.sleep(0.08)
     f.close()
-    clear = lambda: os.system('cls')
     clear()
 
